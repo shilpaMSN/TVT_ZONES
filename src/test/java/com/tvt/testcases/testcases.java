@@ -2,7 +2,6 @@ package com.tvt.testcases;
 
 import org.testng.annotations.Test;
 
-import com.apple.eawt.Application;
 import com.tvt.builder.CreateUserBuilder;
 
 import io.restassured.RestAssured;

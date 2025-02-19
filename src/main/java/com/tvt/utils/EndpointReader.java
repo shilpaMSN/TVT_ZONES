@@ -1,13 +1,17 @@
 package com.tvt.utils;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
 import com.jayway.jsonpath.JsonPath;
-import java.io.IOException;
 
 public class EndpointReader {
 
-    private  static final String JSON_FILE_PATH = "data.json"; // Default JSON file
+   private  static final String JSON_FILE_PATH = "src/test/java/resources/configfiles/Endpoints.json";   // Default JSON file
+
+
+// Default JSON file
     public static String getValueFromJson(String jsonPath) {
         try {
             // Read the JSON file as a String
