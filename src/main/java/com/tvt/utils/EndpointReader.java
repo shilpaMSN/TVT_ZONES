@@ -27,4 +27,5 @@ public class EndpointReader {
             return "Error parsing JSON or invalid JSONPath";
         }
     }
+
 }
